@@ -12,11 +12,11 @@ Spring Security  Example Project
    In order to use SS I have added dependency for spring security and @EnableWebSecurity in configuration file,
    which extends WebSecurityConfigurerAdapter.In this file there are overrided 3 configure methotds
    
-   Application <b>demo-spring-security</b> 
+   Application <b>demo-spring-security</b> spring boot security
    <br>auto configuration:
        <br>Mapping filter: 'springSecurityFilterChain' to: [/*] : Spring Security is by default turned on for all 
-       <br><br><br>the URLs in the application.
-       <br><br>Basic Authentication is the default.
+       <br>the URLs in the application.
+       <br>Basic Authentication is the default.
        <br>Using default security password: 25e07e82-720d-4109-ba8d-25177c6347e6 : Default userid is user. Default password
        <br><br>is printed in the server start up log. In this example, password is 25e07e82-720d-4109-ba8d-25177c6347e6
        <br>Some filter chains are configured to enable security
