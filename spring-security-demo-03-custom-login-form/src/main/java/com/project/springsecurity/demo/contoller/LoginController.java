@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class LoginController {
 
-	@GetMapping("/showMyLoginPage")
-	public String showMyLoginPage() {
-		
-		return "plain-login";
-		
-	}
+    @GetMapping("/showMyLoginPage")
+    public String showMyLoginPage() {
+
+        return "plain-login";
+
+    }
 }
