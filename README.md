@@ -13,11 +13,11 @@ Spring Security  Example Project
    which extends WebSecurityConfigurerAdapter.In this file there are overrided 3 configure methotds
    
    Application <b>demo-spring-security</b> 
-   auto configuration:
-       Mapping filter: 'springSecurityFilterChain' to: [/*] : Spring Security is by default turned on for all 
-       the URLs in the application.
-       Basic Authentication is the default.
-       Using default security password: 25e07e82-720d-4109-ba8d-25177c6347e6 : Default userid is user. Default password
-       is printed in the server start up log. In this example, password is 25e07e82-720d-4109-ba8d-25177c6347e6
-       Some filter chains are configured to enable security
+   <br>auto configuration:
+       <br>Mapping filter: 'springSecurityFilterChain' to: [/*] : Spring Security is by default turned on for all 
+       <br><br><br>the URLs in the application.
+       <br><br>Basic Authentication is the default.
+       <br>Using default security password: 25e07e82-720d-4109-ba8d-25177c6347e6 : Default userid is user. Default password
+       <br><br>is printed in the server start up log. In this example, password is 25e07e82-720d-4109-ba8d-25177c6347e6
+       <br>Some filter chains are configured to enable security
 
